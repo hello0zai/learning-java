@@ -44,11 +44,6 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 
 
-git config --global user.email "hello0zaizai@gmail.com"
-git config --global user.name "hello0zai"
-hello0zai
-
-
 git commit -m "init"
 [main (root-commit) 97d9249] init
  1 file changed, 26 insertions(+)
