@@ -1,0 +1,6 @@
+git remote -v
+
+git branch -a
+
+
+git checkout -b develop1 main
