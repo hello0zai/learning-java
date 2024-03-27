@@ -1,18 +1,63 @@
-git remote -v
+# Show remote branch
+# git remote -v
 
-git branch -a
+# Show all remote branches.
+# git branch -a
 
 
-git checkout -b develop1 main
-git push --set-upstream origin develop1
+# Create a new branch from existing branch.
+# git checkout -b develop1 main
+# git push --set-upstream origin develop1		# added to remote branch name 
+# git pull origin main 							# update from existing branch ( main )
 
 # Create develop2 branch 
-git checkout -b develop2 main 
-git push --set-upstream origin develop2
-git pull origin main
+# git checkout -b develop2 main 
+# git push --set-upstream origin develop2
+# git pull origin main
 
 
-added to fix bug in hotfix.
+# Merge the current branch (develop1) from another branch ( develop 2)
+# git checkout develop1 ( current branch)
+# git merge --no-ff develop2 ( other branch )
+# git push  ( to commit )
+
+# To switch or work on other branch.
+# git checkout develop1
+# git switch develop1
+
+
+# delete branch locally
+# git branch -d localBranchName
+
+# To delete branch remotely
+# git push origin --delete remoteBranchName
+
+# Git show different from branches 
+# git show develop1:commands.txt
+# git show main:commands.txt
+# https://stackoverflow.com/questions/10039747/how-to-view-file-diff-in-git-before-commit
+
+# To edit global config
+# git config --global --edit
+
+
+# To show list of ref log 
+# git reflog
+# git checkout -b "<branch-name>" "<head-ref-or-commit-sha>"
+# https://colinmackay.scot/2021/12/10/how-to-undelete-a-branch-in-git/
+
+# To show list of logs 
+# git show-ref --heads -s
+# git branch -v --all
+# https://stackoverflow.com/questions/8201765/how-to-get-list-of-branch-heads-in-git
+
+
+# Git to change editor
+# git config --global core.editor "vim"
+# https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-editing-commit-messages
+
+
+#added to fix bug in hotfix.
 
 # How to Undelete a Branch in Git
 # git reflog
