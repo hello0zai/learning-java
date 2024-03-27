@@ -10,3 +10,11 @@ git push --set-upstream origin develop1
 git checkout -b develop2 main 
 git push --set-upstream origin develop2
 git pull origin main
+
+
+added to fix bug in hotfix.
+
+# How to Undelete a Branch in Git
+# git reflog
+# git checkout -b "<branch-name>" "<head-ref-or-commit-sha>"
+# https://colinmackay.scot/2021/12/10/how-to-undelete-a-branch-in-git/
