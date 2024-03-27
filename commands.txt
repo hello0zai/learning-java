@@ -1,0 +1,12 @@
+git remote -v
+
+git branch -a
+
+
+git checkout -b develop1 main
+git push --set-upstream origin develop1
+
+# Create develop2 branch 
+git checkout -b develop2 main 
+git push --set-upstream origin develop2
+git pull origin main
