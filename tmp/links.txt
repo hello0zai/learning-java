@@ -60,3 +60,27 @@ Deleted branch hotfix (was f64b708).
 
 
 git push --set-upstream origin develop1
+
+https://www.varonis.com/blog/git-branching
+https://stackoverflow.com/questions/38206196/merge-one-local-branch-into-another-local-branch
+https://stackoverflow.com/questions/9069061/what-effect-does-the-no-ff-flag-have-for-git-merge
+https://stackoverflow.com/questions/12114519/how-to-get-git-log-display-name-of-deleted-branches
+https://stackoverflow.com/questions/11284350/how-to-see-code-changes-after-git-pull
+https://stackoverflow.com/questions/10039747/how-to-view-file-diff-in-git-before-commit
+https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/
+https://phoenixnap.com/kb/git-switch-branch#:~:text=There%20are%20two%20ways%20to,the%20%2Db%20option%20is%20specified.
+https://stackoverflow.com/questions/37770467/why-do-i-have-to-git-push-set-upstream-origin-branch
+https://stackoverflow.com/questions/8201765/how-to-get-list-of-branch-heads-in-git
+https://stackoverflow.com/questions/49297153/why-is-it-not-a-commit-and-a-branch-cannot-be-created-from-it
+https://stackoverflow.com/questions/73004979/your-main-branch-isnt-protected
+https://pragprog.com/titles/tsgit/pragmatic-version-control-using-git/
+https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+https://git-scm.com/docs/git-pull
+https://gitlab.com/gitlab-org/gitlab-runner/-/branches
+https://gitlab.com/gitlab-examples/review-apps-nginx/
+https://docs.gitlab.com/ee/ci/yaml/#environment
+https://about.gitlab.com/topics/version-control/what-are-gitlab-flow-best-practices/
+https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+https://stackoverflow.com/questions/46729813/how-to-use-a-Gitflow-hotfix-branch
+https://nvie.com/posts/a-successful-git-branching-model/
+https://about.gitlab.com/blog/2020/03/05/what-is-gitlab-flow/

@@ -57,9 +57,34 @@
 # https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-editing-commit-messages
 
 
+# How to rename branch 
+# git branch -m <old-name> <new-name>
+# git checkout old-name
+# git branch -m new-name
+# git push origin --delete old-name
+# git push origin -u new-name
+
+# sample
+# git branch -a
+# git branch -m develop3 test
+# git checkout test
+# git push origin --delete develop3
+# git push origin -u test
+# https://www.ionos.com/digitalguide/websites/web-development/renaming-a-git-branch/
+
+
+# how-to-see-code-changes-after-git-pull
+# git log --name-status -2
+# git log -p -2
+# git fetch
+# git log --name-status origin/master..
+# https://stackoverflow.com/questions/11284350/how-to-see-code-changes-after-git-pull
+
 #added to fix bug in hotfix.
 
 # How to Undelete a Branch in Git
 # git reflog
 # git checkout -b "<branch-name>" "<head-ref-or-commit-sha>"
 # https://colinmackay.scot/2021/12/10/how-to-undelete-a-branch-in-git/
+
+# https://phoenixnap.com/kb/git-switch-branch
